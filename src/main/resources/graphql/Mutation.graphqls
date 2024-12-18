@@ -1,0 +1,9 @@
+type Mutation{
+    saveStudent(student:studentRequest):Student
+}
+
+input studentRequest{
+    name:String
+    email:String
+    date:String
+}
